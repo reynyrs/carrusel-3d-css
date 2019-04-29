@@ -1,0 +1,4 @@
+
+css:
+el numero de figuras va creando un angulo que debe formar los 360deg, pero el primero hijo de la clase .carrousel figure va a valer 0 ya que debe esta totalmente de frente, entonces se empezara a contar el 2do, por ejemplo si se quieren colocar 10 imagenes, seran 10 figures, entonces se hace el calculo 360/9=40, porque el primer hijo no cuenta entonces se comienza desde el 2do,
+

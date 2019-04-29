@@ -1,0 +1,500 @@
+/* variable de colores */
+
+:root{
+    --marron:#5e3813;
+    --naranja:#ffa726;
+    --barrasnav:#f9ead3;
+    --transicion: -1303px;
+    
+}
+
+
+
+/* /variable de colores  */
+html {
+    scroll-behavior: smooth;
+  }
+.navboton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.accordind{
+    line-height: 42px !important;
+}
+.paddingsect{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.logoub{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.navtam{
+    height: 30px;
+    position: relative;
+    background-color: var(--marron);
+    z-index: 999;
+}
+.telf{
+    position: absolute;
+    left: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.bannerlogo{
+    background-image: url('../imagenes/braseiro/hamburcora.JPG');
+    height: 200px;
+    max-width: 100%;
+    background-size: cover;
+    position: relative;
+    background-position: 50% 50%;
+}
+.imgcarrusel{
+    width: 100%;
+    height: 280px !important;
+    background-size: cover;
+    object-fit: cover;
+}
+.logotam{
+    width: 70px;
+    border-radius:50%;
+    border: 2px solid var(--marron);
+}
+.menuscrollnav{
+    position: fixed;
+    right: 10px;
+    font-size: 24px;
+    bottom: 10px;
+    width: 45px;
+    height: 45px;
+    z-index: 99;
+    text-align: center;
+    color: var(--barrasnav);
+    border-radius: 50%;
+    background: var(--marron);
+    padding-left: 4px;
+}
+
+.menunav{
+    width: 250px;
+}
+.fa-bars:before {
+    content: "\f0c9";
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.telefononum{
+    margin: 0;
+    font-size: 13px;
+    padding-top: 9px;
+}
+.cuadrosred{
+    font-size: 24px;
+    color:#3f260d;
+    text-align: center;
+    padding: 11px 23px;
+    border-radius: 20px;
+
+}
+.box-icon{
+    display: inline-block;
+
+}
+.centercuadro{
+    display: flex;
+    justify-content: center;
+}
+.padseccuadro{
+    padding-top: 20px;
+    position: relative;
+}
+.cuadrosred:hover{
+    color: gray;
+}
+.sombrarow{
+    box-shadow: 0px 2px 3px 1.5px #757575ad;
+    -webkit-box-shadow: 0px 2px 3px 1.5px #757575ad;
+   
+}
+.cuadrotransparent{
+    border-radius: 16px;
+}
+.inputcorreo{
+    margin: 0 !important;
+    border: none !important;
+}
+.btnsend{
+    padding: 22px;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    background: #d85103;
+    width: 16%;
+    transform: translateX(-50%);
+}
+.iconoisend{
+    margin: 0 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.footerback{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+.letrafoot{
+    padding: 1em;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.paddingcorre{
+padding-bottom: 5%;
+padding-top: 5%;
+position: relative;
+}
+.parallax{
+    /* The image used */
+    background-image: url("../imagenes/braseiro/parrillero2.JPG");
+  
+    /* Set a specific height */
+    min-height: 190px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.opacidadneg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00000026;
+}
+.centerform{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.whatsicon{
+    position: absolute;
+    height: 80%;
+    right: 3px;
+    top: 3px;
+}
+.botoncerrarmenu{
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    width: 20%;
+    right: 5px;
+    background: #ffffff78;
+    /* padding: 10px; */
+    border-radius: 50%;
+}
+.input-field label {
+color: var(--naranja);
+}
+.input-field input[type=text]:focus + label {
+    color: var(--naranja);
+  }
+  .input-field .prefix.active {
+    color: var(--naranja);
+  }
+  input[type=text]:not(.browser-default):focus:not([readonly])+label{
+      color: var(--naranja);
+  }
+  .iconosuscri{
+    position: relative;
+    vertical-align: middle;
+  }
+  .inputsusb{
+    position: relative;
+    left: 50% !important;
+    transform: translateX(-50%);
+  }
+  .colorinputlett{
+    color: var(--naranja) !important;
+  }
+  body {
+      background: #f1f1f1 !important;
+  }
+  .spanraya{
+    border: 0.5px solid var(--marron)4a;
+    height: 30px;
+    position: absolute;
+    font-size: 40px;
+    padding-top: 21px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .modalimggale{
+      max-width: 100% !important;
+      max-height: 400px !important;
+  }
+  .modalheight{
+      max-height: inherit;
+  }
+  .cerrarboton{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 20px;
+  }
+
+  .redessocpadd{
+    padding-top: 0px;
+    margin-top: -5px;
+  }
+  .margincollapzero{
+      margin-top: 0;
+  }
+  .flechacerrarmenu{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #595555;
+  }
+  .navtamresp{
+      width: 250px;
+      z-index: 1000;
+  }
+  .sepcopy{
+      padding-right: 1%;
+  }
+  .drag-target{
+      width: 40px;
+  }
+  .anclacode{
+      color: white;
+      transition: 1.5s
+  }
+  .anclacode:hover{
+    color: #ff3523;
+}
+.anclacode:active{
+    color: white;
+}
+    /* scroll color */
+
+        /* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+    border-radius: 10px;
+    cursor: pointer;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--marron); 
+    border-radius: 10px;
+    transition: 2s;
+    cursor: pointer;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--marron); 
+    transition: 2s;
+    cursor: pointer;
+  }
+
+  ::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: var(--marron);
+    transition: 2s;
+    cursor: pointer;
+  }
+  
+  ::selection {
+    color: white;
+    background: var(--marron);
+    transition: 2s;
+    cursor: pointer;
+    
+  }
+    /* scroll color */
+#navrey{
+   
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.5s;
+}
+
+  
+  #navrey a {
+    float: left;
+    display: block;
+   
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navrey a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .cuadroparascroll{
+     width:600px;
+     height:300px;
+     position:relative;
+     background:white;
+     overflow:hidden;
+     margin:auto;
+  }
+
+/* carrusel 3d */
+.contenedor{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-all{
+  width: 220px; 
+  perspective: 1700px;
+  margin: auto;
+
+}
+.content-all:hover{
+  width: 220px; 
+  perspective: 1700px;
+  margin: auto;
+
+}
+
+.content-carrousel{
+  width: 90%;
+  position: absolute;
+  animation: rotar 40s infinite linear;
+  transform-style: preserve-3d;
+  transition: transform 2s;
+
+}
+
+.content-carrousel:hover{
+  width: 90%;
+  position: absolute;
+ animation-play-state: running;
+  transform-style: preserve-3d;
+  animation-play-state: paused;
+  transition: transform 2s;
+
+}
+
+.content-carrousel figure{
+  width: 100%;
+  height: 100%;
+  position: absolute !important;
+}
+.content-carrousel figure img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: absolute !important;
+}
+
+
+.content-carrousel  figure:nth-child(1){
+ transform: rotateY(0deg) translateZ(300px);
+}
+.content-carrousel  figure:nth-child(2){
+  transform: rotateY(40deg) translateZ(300px);
+ }
+ .content-carrousel figure:nth-child(3){
+  transform: rotateY(80deg)translateZ(300px);
+ }
+ .content-carrousel figure:nth-child(4){
+  transform: rotateY(120deg)translateZ(300px);
+ }
+ .content-carrousel figure:nth-child(5){
+  transform: rotateY(160deg)translateZ(300px);
+ }
+ .content-carrousel figure:nth-child(6){
+  transform: rotateY(200deg)translateZ(300px);
+ }
+ .content-carrousel figure:nth-child(7){
+  transform: rotateY(240deg)translateZ(300px);
+ }
+ .content-carrousel figure:nth-child(8){
+  transform: rotateY(280deg)translateZ(300px);
+ }
+ .content-carrousel figure:nth-child(9){
+  transform: rotateY(320deg)translateZ(300px);
+ }
+ .content-carrousel figure:nth-child(10){
+  transform: rotateY(360deg)translateZ(300px);
+ }
+@keyframes rotar{
+   from{
+     transform: rotateY(0deg)
+   }
+   to{
+     transform: rotateY(360deg)
+   }
+}
+
+
+/* carrusel 3d */
+
+
+  
+
+
+
+  /* animacion */
+
+  .animacion{
+    width: 100%;
+    height: 100%;
+    padding-top:50px;
+    position: relative;
+    -webkit-animation: mymove 50s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 50s infinite;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    transition-timing-function: cubic-bezier(0.28,1,0.10,0);
+    animation-direction: normal;
+
+  }
+  .animacion:hover{
+    animation-play-state: paused;
+    
+  }
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0%   {top: 0px;}
+   
+    100% {top: var(--transicion);}
+  }
+  
+  /* Standard syntax */
+  @keyframes mymove {
+    0%   {top: 0px;}
+ 
+    100% {top: var(--transicion);}
+  }
+  /* animacion */
